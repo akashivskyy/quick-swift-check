@@ -1,0 +1,35 @@
+#
+# .gitignore
+#
+# Copyright (c) 2017 Adrian Kashivskyy. All rights reserved.
+# Licensed under the MIT License.
+#
+
+.DS_Store
+.Trashes
+.localized
+
+.build
+xcuserdata
+DerivedData
+
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.xccheckout
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.o
+*.hmap
+*.ipa
+*.dSYM.zip
+
+.idea
+*.iml
+
+Pods
+Carthage
+Packages
