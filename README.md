@@ -57,6 +57,16 @@ If you're using [CocoaPods](http://cocoapods.org), add the following dependency 
 pod 'QuickSwiftCheck', '~> {version}'
 ```
 
+## Roadmap
+
+#### Version 1.0
+
+This release will be a first stable release compatible with Xcode 8 and Swift 3 and available through Carthage and CocoaPods.
+
+#### Version 2.0
+
+This release will focus on compatibility with Xcode 9 and Swift 4. Also, Swift Package Manager and Linux support will be added.
+
 ## About
 
 This project is made and maintained with ♡ by [Adrian Kashivskyy](https://github.com/akashivskyy).
