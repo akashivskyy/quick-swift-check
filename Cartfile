@@ -1,0 +1,10 @@
+#
+# Cartfile
+#
+# Copyright © 2017 Adrian Kashivskyy. All rights reserved.
+# Licensed under the MIT License.
+#
+
+github "Quick/Quick" ~> 1.0
+github "Quick/Nimble" ~> 7.0
+github "typelift/SwiftCheck" ~> 0.8
