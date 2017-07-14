@@ -9,7 +9,35 @@
 
 ## Requirements
 
-ResponseDetective is written in Swift 3 and supports **iOS 8.0+**, **macOS 10.10+** and **tvOS 9.0+**.
+QuickSwiftCheck is written in Swift 3.1 and supports **iOS 8.0+**, **macOS 10.10+** and **tvOS 9.0+**.
+
+## Usage
+
+QuickSwiftCheck allows you to use [Quick](https://github.com/Quick/Quick) DSL and [Nimble](https://github.com/Quick/Nimble) expectations together with [SwiftCheck](https://github.com/typelift/SwiftCheck):
+
+```swift
+sc_it("Int.hashValue should respect the axiom") {
+    forAll { (x: Int, y: Int) in
+        (x == y) ==> expect(x.hashValue).sc_to(equal(y.hashValue))
+    }
+}
+```
+
+QuickSwiftCheck adds `sc_` variants to `it`, `fit`, `xit`, `to` and `toNot` functions, so that the original functions remain not overloaded. This means you can use `it` to create a regular test example and `to` to create a regular expectation:
+
+```swift
+it("this is a regular test example") {
+    expect(...).to(...)
+}
+```
+
+```swift
+sc_it("this is a property-based test example") {
+    forAll {
+        expect(...).sc_to(...)
+    }
+}
+```
 
 ## Installation
 
