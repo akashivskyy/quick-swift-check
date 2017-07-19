@@ -1,0 +1,9 @@
+//
+// Common-Debug.xcconfig
+//
+// Copyright © 2017 Adrian Kashivskyy. All rights reserved.
+// Licensed under the MIT License.
+//
+
+#include "../Common/Common-Base.xcconfig"
+#include "../External/Configurations/Debug.xcconfig"

@@ -1,0 +1,21 @@
+//
+// Framework-Base.xcconfig
+//
+// Copyright © 2017 Adrian Kashivskyy. All rights reserved.
+// Licensed under the MIT License.
+//
+
+#include "../External/Targets/Framework.xcconfig"
+
+// MARK: Bundle
+
+_BUNDLE_NAME = QuickSwiftCheck
+_BUNDLE_IDENTIFIER = me.akashivskyy.lib.quickswiftcheck
+_BUNDLE_INFOPLIST_PATH = $(SRCROOT)/$(PROJECT_NAME)/Resources/Framework-Info.plist
+
+_BUNDLE_TESTABLE = NO
+
+// MARK: Custom
+
+ENABLE_BITCODE = NO
+APPLICATION_EXTENSION_API_ONLY = NO

@@ -1,0 +1,4 @@
+github "Quick/Nimble" "v7.0.1"
+github "Quick/Quick" "v1.1.0"
+github "netguru/xcconfigs" "0.2"
+github "typelift/SwiftCheck" "0.8.0"
