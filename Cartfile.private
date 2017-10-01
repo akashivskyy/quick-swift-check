@@ -5,4 +5,4 @@
 # Licensed under the MIT License.
 #
 
-github "netguru/xcconfigs" ~> 0.2
+github "netguru/xcconfigs" == 0.3
