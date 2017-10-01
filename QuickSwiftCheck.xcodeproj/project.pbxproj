@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A056E3C1F81646F0050C95B /* QuickSwiftCheck.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuickSwiftCheck.podspec; sourceTree = "<group>"; };
 		3A5222321F13E02A005D985A /* QuickSwiftCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickSwiftCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACB93721F13E561009E1C2A /* Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = "<group>"; };
 		3AD5460F1F17A0D50000CCCA /* Common-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Common-Base.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 			children = (
 				3AEBA4F41F191F99007674FB /* Cartfile */,
 				3AEBA4F51F191FB7007674FB /* Cartfile.private */,
+				3A056E3C1F81646F0050C95B /* QuickSwiftCheck.podspec */,
 			);
 			name = "Other Files";
 			sourceTree = "<group>";
