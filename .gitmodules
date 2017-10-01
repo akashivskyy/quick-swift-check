@@ -10,3 +10,6 @@
 [submodule "Carthage/Checkouts/Nimble"]
 	path = Carthage/Checkouts/Nimble
 	url = https://github.com/Quick/Nimble.git
+[submodule "Carthage/Checkouts/FileCheck"]
+	path = Carthage/Checkouts/FileCheck
+	url = https://github.com/trill-lang/FileCheck.git
