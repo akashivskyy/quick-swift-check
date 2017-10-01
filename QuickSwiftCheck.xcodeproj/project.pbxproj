@@ -202,7 +202,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Adrian Kashivskyy";
 				TargetAttributes = {
 					3A5222311F13E02A005D985A = {
@@ -357,6 +357,7 @@
 				3AEBA5031F19217D007674FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AEBA50E1F19219D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck (tvOS)" */ = {
 			isa = XCConfigurationList;
@@ -365,6 +366,7 @@
 				3AEBA5101F19219D007674FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
