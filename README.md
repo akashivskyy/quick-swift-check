@@ -1,7 +1,7 @@
 # QuickSwiftCheck
 
 ![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)
-![](https://img.shields.io/badge/swift-3.2-orange.svg)
+![](https://img.shields.io/badge/swift-4.0.2-orange.svg)
 [![](https://img.shields.io/badge/carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
 [![](https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg)](https://cocoapods.org)
 
@@ -9,7 +9,7 @@
 
 ## Requirements
 
-QuickSwiftCheck is written in Swift 3.2 and supports **iOS 8.0+**, **macOS 10.10+** and **tvOS 9.0+**.
+QuickSwiftCheck is written in Swift 4.0.2 and supports **iOS 8.0+**, **macOS 10.10+** and **tvOS 9.0+**.
 
 ## Usage
 
