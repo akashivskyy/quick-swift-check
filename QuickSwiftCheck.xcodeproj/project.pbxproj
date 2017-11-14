@@ -149,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A5222311F13E02A005D985A /* QuickSwiftCheck (iOS) */ = {
+		3A5222311F13E02A005D985A /* QuickSwiftCheck-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A5222461F13E02A005D985A /* Build configuration list for PBXNativeTarget "QuickSwiftCheck (iOS)" */;
+			buildConfigurationList = 3A5222461F13E02A005D985A /* Build configuration list for PBXNativeTarget "QuickSwiftCheck-iOS" */;
 			buildPhases = (
 				3A52222D1F13E02A005D985A /* Sources */,
 				3A52222E1F13E02A005D985A /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = "QuickSwiftCheck (iOS)";
+			name = "QuickSwiftCheck-iOS";
 			productName = QuickSwiftCheck;
 			productReference = 3A5222321F13E02A005D985A /* QuickSwiftCheck.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3AEBA4FB1F19217C007674FB /* QuickSwiftCheck (macOS) */ = {
+		3AEBA4FB1F19217C007674FB /* QuickSwiftCheck-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AEBA5011F19217D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck (macOS)" */;
+			buildConfigurationList = 3AEBA5011F19217D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck-macOS" */;
 			buildPhases = (
 				3AEBA4F71F19217C007674FB /* Sources */,
 				3AEBA4F81F19217C007674FB /* Frameworks */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = "QuickSwiftCheck (macOS)";
+			name = "QuickSwiftCheck-macOS";
 			productName = "QuickSwiftCheck (macOS)";
 			productReference = 3AEBA4FC1F19217C007674FB /* QuickSwiftCheck.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3AEBA5081F19219D007674FB /* QuickSwiftCheck (tvOS) */ = {
+		3AEBA5081F19219D007674FB /* QuickSwiftCheck-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AEBA50E1F19219D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck (tvOS)" */;
+			buildConfigurationList = 3AEBA50E1F19219D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck-tvOS" */;
 			buildPhases = (
 				3AEBA5041F19219D007674FB /* Sources */,
 				3AEBA5051F19219D007674FB /* Frameworks */,
@@ -192,7 +192,7 @@
 			);
 			dependencies = (
 			);
-			name = "QuickSwiftCheck (tvOS)";
+			name = "QuickSwiftCheck-tvOS";
 			productName = "QuickSwiftCheck (tvOS)";
 			productReference = 3AEBA5091F19219D007674FB /* QuickSwiftCheck.framework */;
 			productType = "com.apple.product-type.framework";
@@ -204,7 +204,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Adrian Kashivskyy";
 				TargetAttributes = {
 					3A5222311F13E02A005D985A = {
@@ -234,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AEBA4FB1F19217C007674FB /* QuickSwiftCheck (macOS) */,
-				3A5222311F13E02A005D985A /* QuickSwiftCheck (iOS) */,
-				3AEBA5081F19219D007674FB /* QuickSwiftCheck (tvOS) */,
+				3AEBA4FB1F19217C007674FB /* QuickSwiftCheck-macOS */,
+				3A5222311F13E02A005D985A /* QuickSwiftCheck-iOS */,
+				3AEBA5081F19219D007674FB /* QuickSwiftCheck-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A5222461F13E02A005D985A /* Build configuration list for PBXNativeTarget "QuickSwiftCheck (iOS)" */ = {
+		3A5222461F13E02A005D985A /* Build configuration list for PBXNativeTarget "QuickSwiftCheck-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A5222471F13E02A005D985A /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AEBA5011F19217D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck (macOS)" */ = {
+		3AEBA5011F19217D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AEBA5021F19217D007674FB /* Debug */,
@@ -361,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AEBA50E1F19219D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck (tvOS)" */ = {
+		3AEBA50E1F19219D007674FB /* Build configuration list for PBXNativeTarget "QuickSwiftCheck-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AEBA50F1F19219D007674FB /* Debug */,
