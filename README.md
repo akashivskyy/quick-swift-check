@@ -2,8 +2,9 @@
 
 ![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)
 ![](https://img.shields.io/badge/swift-4.0.2-orange.svg)
-[![](https://img.shields.io/badge/carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![](https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg)](https://cocoapods.org)
+[![](https://img.shields.io/badge/spm-compatible-green.svg)](https://github.com/apple/swift-package-manager)
+[![](https://img.shields.io/badge/carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
+[![](https://img.shields.io/badge/cocoapods-compatible-green.svg)](https://cocoapods.org)
 
 [Quick](https://github.com/Quick/Quick) + [Nimble](https://github.com/Quick/Nimble) + [SwiftCheck](https://github.com/typelift/SwiftCheck) = **QuickSwiftCheck**.
 
@@ -40,6 +41,14 @@ sc_it("this is a property-based test example") {
 ```
 
 ## Installation
+
+### Swift Package Manager
+
+If you're using [Swift Package Manager](https://github.com/apple/swift-package-manager), add the following dependency to your `Package.swift`:
+
+```none
+.package(url: "https://github.com/akashivskyy/QuickSwiftCheck.git", from: "{version}"),
+```
 
 ### Carthage
 
