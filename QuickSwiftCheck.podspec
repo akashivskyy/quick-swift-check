@@ -37,9 +37,9 @@ Pod::Spec.new do |spec|
 
   # Dependencies
 
-  spec.dependency 'Quick', '~> 1.2.0'
   spec.dependency 'Nimble', '~> 7.0.2'
-  spec.dependency 'SwiftCheck', '~> 0.8.1'
+  spec.dependency 'Quick', '~> 1.2.0'
+  spec.dependency 'SwiftCheck', '~> 0.9.1'
 
   # Linking
 
