@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0910"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3AEBA5081F19219D007674FB"
                BuildableName = "QuickSwiftCheck.framework"
-               BlueprintName = "QuickSwiftCheck (tvOS)"
+               BlueprintName = "QuickSwiftCheck-tvOS"
                ReferencedContainer = "container:QuickSwiftCheck.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -49,7 +49,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AEBA5081F19219D007674FB"
             BuildableName = "QuickSwiftCheck.framework"
-            BlueprintName = "QuickSwiftCheck (tvOS)"
+            BlueprintName = "QuickSwiftCheck-tvOS"
             ReferencedContainer = "container:QuickSwiftCheck.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3AEBA5081F19219D007674FB"
             BuildableName = "QuickSwiftCheck.framework"
-            BlueprintName = "QuickSwiftCheck (tvOS)"
+            BlueprintName = "QuickSwiftCheck-tvOS"
             ReferencedContainer = "container:QuickSwiftCheck.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
