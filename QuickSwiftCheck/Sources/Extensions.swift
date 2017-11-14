@@ -5,6 +5,7 @@
 // Licensed under the MIT License.
 //
 
+import Foundation
 import Nimble
 import SwiftCheck
 
@@ -62,7 +63,7 @@ internal extension Predicate {
     /// - Returns: A `TestResult` instance that can be returned as a result of a
     ///   quantifier.
     internal func makeTestResult(expression: Expression<T>, intention: ExpectationIntention, failureMessage: FailureMessage) -> TestResult {
-        return NMBExceptionCapture.coalescing(
+        return capturingException(
             try: {
                 do {
                     failureMessage.actualValue = "<\(stringify(try expression.evaluate()))>"
@@ -103,26 +104,6 @@ internal extension Predicate {
 
 // MARK: -
 
-fileprivate extension NMBExceptionCapture {
-
-    /// Try to execute `try` closure and if it throws an Objective-C exception,
-    /// coalesce the result by `catch` closure.
-    ///
-    /// - Parameters:
-    ///     - try: A `@try` closure.
-    ///     - catch: A `@catch` closure.
-    ///
-    /// - Returns: A result.
-    fileprivate static func coalescing<Result>(try: () -> Result, catch: @escaping (NSException) -> Result) -> Result {
-        var result: Result!
-        NMBExceptionCapture(handler: { result = `catch`($0) }).tryBlock { result = `try`() }
-        return result
-    }
-
-}
-
-// MARK: -
-
 fileprivate extension FailureMessage {
 
     /// Initialize a `FailureMessage` with `userDescription`, `to` and
@@ -138,4 +119,26 @@ fileprivate extension FailureMessage {
         self.to = toDescription
     }
     
+}
+
+// MARK: -
+
+/// Try to execute `try` closure and if it throws an Objective-C exception,
+/// coalesce the result by `catch` closure.
+///
+/// - Parameters:
+///     - try: A `@try` closure.
+///     - catch: A `@catch` closure.
+///
+/// - Returns: A result.
+fileprivate func capturingException<Result>(try: () -> Result, catch: (NSException) -> Result) -> Result {
+    #if !SWIFT_PACKAGE
+        return withoutActuallyEscaping(`catch`) { `catch` in
+            var result: Result!
+            NMBExceptionCapture(handler: { result = `catch`($0) }).tryBlock { result = `try`() }
+            return result
+        }
+    #else
+        return `try`()
+    #endif
 }
