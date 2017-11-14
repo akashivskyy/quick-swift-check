@@ -1,4 +1,5 @@
 github "Quick/Nimble" "v7.0.2"
 github "Quick/Quick" "v1.2.0"
 github "netguru/xcconfigs" "0.3"
-github "typelift/SwiftCheck" "0.8.1"
+github "trill-lang/FileCheck" "0.0.4"
+github "typelift/SwiftCheck" "0.9.1"
