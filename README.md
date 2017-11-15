@@ -10,7 +10,7 @@
 
 ## Requirements
 
-QuickSwiftCheck is written in Swift 4.0.2 and supports **iOS 8.0+**, **macOS 10.10+** and **tvOS 9.0+**.
+QuickSwiftCheck is written in Swift 4.0.2 and supports **macOS 10.10+**, **iOS 8.0+**, **tvOS 9.0+** and **Linux**.
 
 ## Usage
 
