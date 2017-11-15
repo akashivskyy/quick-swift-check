@@ -1,6 +1,6 @@
 # QuickSwiftCheck
 
-![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)
+[![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)](https://github.com/akashivskyy/QuickSwiftCheck/releases)
 ![](https://img.shields.io/badge/swift-4.0.2-orange.svg)
 [![](https://img.shields.io/badge/spm-compatible-green.svg)](https://github.com/apple/swift-package-manager)
 [![](https://img.shields.io/badge/carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
@@ -68,9 +68,9 @@ pod 'QuickSwiftCheck', '~> {version}'
 
 ## Roadmap
 
-#### Version 2.0
+#### Version 2.x
 
-This release will focus on compatibility with Xcode 9 and Swift 4. Also, Swift Package Manager and Linux support will be added.
+These minor releases will keep QuickSwiftCheck up-to-date with latest versions of Quick, Nimble, SwiftCheck and Swift itself.
 
 ## About
 
