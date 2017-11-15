@@ -1,15 +1,16 @@
 # QuickSwiftCheck
 
-![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)
-![](https://img.shields.io/badge/swift-3.2-orange.svg)
-[![](https://img.shields.io/badge/carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![](https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg)](https://cocoapods.org)
+[![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)](https://github.com/akashivskyy/QuickSwiftCheck/releases)
+![](https://img.shields.io/badge/swift-4.0.2-orange.svg)
+[![](https://img.shields.io/badge/spm-compatible-green.svg)](https://github.com/apple/swift-package-manager)
+[![](https://img.shields.io/badge/carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
+[![](https://img.shields.io/badge/cocoapods-compatible-green.svg)](https://cocoapods.org)
 
 [Quick](https://github.com/Quick/Quick) + [Nimble](https://github.com/Quick/Nimble) + [SwiftCheck](https://github.com/typelift/SwiftCheck) = **QuickSwiftCheck**.
 
 ## Requirements
 
-QuickSwiftCheck is written in Swift 3.2 and supports **iOS 8.0+**, **macOS 10.10+** and **tvOS 9.0+**.
+QuickSwiftCheck is written in Swift 4.0.2 and supports **iOS 8.0+**, **macOS 10.10+** and **tvOS 9.0+**.
 
 ## Usage
 
@@ -41,6 +42,14 @@ sc_it("this is a property-based test example") {
 
 ## Installation
 
+### Swift Package Manager
+
+If you're using [Swift Package Manager](https://github.com/apple/swift-package-manager), add the following dependency to your `Package.swift`:
+
+```none
+.package(url: "https://github.com/akashivskyy/QuickSwiftCheck.git", from: "{version}"),
+```
+
 ### Carthage
 
 If you're using [Carthage](https://github.com/Carthage/Carthage), add the following dependency to your `Cartfile`:
@@ -59,9 +68,9 @@ pod 'QuickSwiftCheck', '~> {version}'
 
 ## Roadmap
 
-#### Version 2.0
+#### Version 2.x
 
-This release will focus on compatibility with Xcode 9 and Swift 4. Also, Swift Package Manager and Linux support will be added.
+These minor releases will keep QuickSwiftCheck up-to-date with latest versions of Quick, Nimble, SwiftCheck and Swift itself.
 
 ## About
 
