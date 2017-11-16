@@ -24,7 +24,7 @@ sc_it("Int.hashValue should respect the axiom") {
 }
 ```
 
-QuickSwiftCheck adds `sc_` variants to `it`, `fit`, `xit`, `to` and `toNot` functions, so that the original functions remain not overloaded. This means you can use `it` to create a regular test example and `to` to create a regular expectation:
+QuickSwiftCheck adds `sc_` variants to `it`, `fit`, `xit`, `to` and `toNot` functions, so that the original functions remain not overloaded (because doing so causes type checking ambiguities). This means you can use `it` to create a regular test example and `to` to create a regular expectation:
 
 ```swift
 it("this is a regular test example") {
