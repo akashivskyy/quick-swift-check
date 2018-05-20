@@ -30,6 +30,7 @@
 		3AD546151F17A2EB0000CCCA /* It.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = It.swift; sourceTree = "<group>"; };
 		3AD5461A1F17AD050000CCCA /* To.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = To.swift; sourceTree = "<group>"; };
 		3AD5461C1F17ADE40000CCCA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3AD9188220B1C0590074B1FA /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		3AEBA4F41F191F99007674FB /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		3AEBA4F51F191FB7007674FB /* Cartfile.private */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 		3AEBA4FC1F19217C007674FB /* QuickSwiftCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickSwiftCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +143,7 @@
 				3AEBA4F41F191F99007674FB /* Cartfile */,
 				3AEBA4F51F191FB7007674FB /* Cartfile.private */,
 				3A056E3C1F81646F0050C95B /* QuickSwiftCheck.podspec */,
+				3AD9188220B1C0590074B1FA /* Package.swift */,
 			);
 			name = "Other Files";
 			sourceTree = "<group>";
@@ -204,7 +206,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Adrian Kashivskyy";
 				TargetAttributes = {
 					3A5222311F13E02A005D985A = {

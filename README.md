@@ -1,7 +1,7 @@
 # QuickSwiftCheck
 
 [![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)](https://github.com/akashivskyy/QuickSwiftCheck/releases)
-![](https://img.shields.io/badge/swift-4.0.2-orange.svg)
+![](https://img.shields.io/badge/swift-4.1-orange.svg)
 [![](https://img.shields.io/badge/spm-compatible-green.svg)](https://github.com/apple/swift-package-manager)
 [![](https://img.shields.io/badge/carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
 [![](https://img.shields.io/badge/cocoapods-compatible-green.svg)](https://cocoapods.org)
@@ -10,7 +10,7 @@
 
 ## Requirements
 
-QuickSwiftCheck is written in Swift 4.0.2 and supports **iOS 8.0+**, **macOS 10.10+** and **tvOS 9.0+**.
+QuickSwiftCheck is written in Swift 4.1 and supports **macOS 10.10+**, **iOS 8.0+**, **tvOS 9.0+** and **Linux**.
 
 ## Usage
 
@@ -24,7 +24,7 @@ sc_it("Int.hashValue should respect the axiom") {
 }
 ```
 
-QuickSwiftCheck adds `sc_` variants to `it`, `fit`, `xit`, `to` and `toNot` functions, so that the original functions remain not overloaded. This means you can use `it` to create a regular test example and `to` to create a regular expectation:
+QuickSwiftCheck adds `sc_` variants to `it`, `fit`, `xit`, `to` and `toNot` functions, so that the original functions remain not overloaded (because doing so causes type checking ambiguities). This means you can use `it` to create a regular test example and `to` to create a regular expectation:
 
 ```swift
 it("this is a regular test example") {
