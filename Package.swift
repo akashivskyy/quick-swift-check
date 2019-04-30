@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.0
 //
 // Package.swift
 //
@@ -14,9 +14,9 @@ let package = Package(
         .library(name: "QuickSwiftCheck", targets: ["QuickSwiftCheck"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Nimble.git", from: "7.1.0"),
-        .package(url: "https://github.com/Quick/Quick.git", from: "1.3.0"),
-        .package(url: "https://github.com/typelift/SwiftCheck.git", from: "0.10.0"),
+        .package(url: "https://github.com/Quick/Nimble.git", from: "8.0.0"),
+        .package(url: "https://github.com/Quick/Quick.git", from: "2.0.0"),
+        .package(url: "https://github.com/typelift/SwiftCheck.git", from: "0.12.0"),
     ],
     targets: [
         .target(
