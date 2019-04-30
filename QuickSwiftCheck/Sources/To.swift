@@ -1,9 +1,5 @@
-//
 // To.swift
-//
-// Copyright © 2017 Adrian Kashivskyy. All rights reserved.
-// Licensed under the MIT License.
-//
+// Copyright © 2019 Adrian Kashivskyy. All rights reserved.
 
 import Nimble
 import SwiftCheck
