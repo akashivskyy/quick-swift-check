@@ -1,16 +1,12 @@
-//
 // Common-Base.xcconfig
-//
-// Copyright © 2017 Adrian Kashivskyy. All rights reserved.
-// Licensed under the MIT License.
-//
+// Copyright © 2019 Adrian Kashivskyy. All rights reserved.
 
 #include "../External/Common/Carthage.xcconfig"
 #include "../External/Common/Common.xcconfig"
 
 // MARK: Version
 
-_BUILD_VERSION = 2.1.0
+_BUILD_VERSION = 3.0.0
 
 // MARK: Deployment
 
@@ -20,5 +16,5 @@ _DEPLOYMENT_TARGET_TVOS = 9.0
 
 // MARK: Compiler
 
-_COMPILER_SWIFT_VERSION = 4.1
+_COMPILER_SWIFT_VERSION = 5.0
 _COMPILER_FRAMEWORK_SEARCH_PATHS = $(PLATFORM_DIR)/Developer/Library/Frameworks

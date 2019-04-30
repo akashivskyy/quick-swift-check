@@ -1,9 +1,5 @@
-//
 // Extensions.swift
-//
-// Copyright © 2017 Adrian Kashivskyy. All rights reserved.
-// Licensed under the MIT License.
-//
+// Copyright © 2019 Adrian Kashivskyy. All rights reserved.
 
 import Foundation
 import Nimble
@@ -30,7 +26,7 @@ internal enum ExpectationIntention {
 
 // MARK: -
 
-internal extension Expectation {
+extension Expectation {
 
     /// Evaluate the expectation with a predicate and return a `Testable` result
     /// instead of asserting it in a handler.
@@ -50,7 +46,7 @@ internal extension Expectation {
 
 // MARK: -
 
-internal extension Predicate {
+extension Predicate {
 
     /// Evaluate the predicate against an expression and return a `Testable`
     /// result.
@@ -104,7 +100,7 @@ internal extension Predicate {
 
 // MARK: -
 
-fileprivate extension FailureMessage {
+extension FailureMessage {
 
     /// Initialize a `FailureMessage` with `userDescription`, `to` and
     /// `actualValue`.
@@ -118,7 +114,7 @@ fileprivate extension FailureMessage {
         self.userDescription = userDescription
         self.to = toDescription
     }
-    
+
 }
 
 // MARK: -

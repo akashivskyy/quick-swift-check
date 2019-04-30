@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2017 Adrian Kashivskyy.
+Copyright © 2019 Adrian Kashivskyy.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

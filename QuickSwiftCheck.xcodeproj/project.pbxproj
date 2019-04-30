@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A056E3C1F81646F0050C95B /* QuickSwiftCheck.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuickSwiftCheck.podspec; sourceTree = "<group>"; };
+		3A056E3C1F81646F0050C95B /* QuickSwiftCheck.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = QuickSwiftCheck.podspec; sourceTree = "<group>"; };
 		3A5222321F13E02A005D985A /* QuickSwiftCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickSwiftCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACB93721F13E561009E1C2A /* Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = "<group>"; };
 		3AD5460F1F17A0D50000CCCA /* Common-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Common-Base.xcconfig"; sourceTree = "<group>"; };
@@ -32,7 +32,6 @@
 		3AD5461C1F17ADE40000CCCA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3AD9188220B1C0590074B1FA /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		3AEBA4F41F191F99007674FB /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		3AEBA4F51F191FB7007674FB /* Cartfile.private */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 		3AEBA4FC1F19217C007674FB /* QuickSwiftCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickSwiftCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEBA5091F19219D007674FB /* QuickSwiftCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickSwiftCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEBA5171F1921B6007674FB /* Framework-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-macOS.xcconfig"; sourceTree = "<group>"; };
@@ -141,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				3AEBA4F41F191F99007674FB /* Cartfile */,
-				3AEBA4F51F191FB7007674FB /* Cartfile.private */,
 				3A056E3C1F81646F0050C95B /* QuickSwiftCheck.podspec */,
 				3AD9188220B1C0590074B1FA /* Package.swift */,
 			);
@@ -206,7 +204,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Adrian Kashivskyy";
 				TargetAttributes = {
 					3A5222311F13E02A005D985A = {
@@ -226,10 +224,11 @@
 			};
 			buildConfigurationList = 3A52222C1F13E02A005D985A /* Build configuration list for PBXProject "QuickSwiftCheck" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3A5222281F13E02A005D985A;
 			productRefGroup = 3A5222331F13E02A005D985A /* Products */;

@@ -1,8 +1,0 @@
-#
-# Cartfile.private
-#
-# Copyright © 2017 Adrian Kashivskyy. All rights reserved.
-# Licensed under the MIT License.
-#
-
-github "netguru/xcconfigs" == 0.5

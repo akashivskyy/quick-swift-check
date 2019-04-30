@@ -1,14 +1,10 @@
-//
 // To.swift
-//
-// Copyright © 2017 Adrian Kashivskyy. All rights reserved.
-// Licensed under the MIT License.
-//
+// Copyright © 2019 Adrian Kashivskyy. All rights reserved.
 
 import Nimble
 import SwiftCheck
 
-public extension Expectation {
+extension Expectation {
 
     /// Evaluate the expectation with a predicate and return a `Testable` result
     /// instead of asserting it in a handler.
@@ -35,5 +31,5 @@ public extension Expectation {
     public func sc_toNot(_ predicate: Predicate<T>, description: String? = nil) -> Testable {
         return makeTestable(predicate: predicate, userDescription: description, intention: .toNotMatch)
     }
-    
+
 }

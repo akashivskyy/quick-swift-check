@@ -1,32 +1,20 @@
-#
 # QuickSwiftCheck.podspec
-#
-# Copyright © 2017 Adrian Kashivskyy. All rights reserved.
-# Licensed under the MIT License.
-#
+# Copyright © 2019 Adrian Kashivskyy. All rights reserved.
 
 Pod::Spec.new do |spec|
 
-  # Description
-
   spec.name = 'QuickSwiftCheck'
-  spec.version = '2.1.0'
+  spec.version = '3.0.0'
   spec.summary = 'Quick + Nimble + SwiftCheck'
   spec.homepage = 'https://github.com/akashivskyy/QuickSwiftCheck'
 
-  # Author
-
   spec.authors = 'Adrian Kashivskyy'
   spec.social_media_url = 'https://twitter.com/akashivskyy'
-
-  # License
 
   spec.license = {
     type: 'MIT',
     file: 'LICENSE.md'
   }
-
-  # Source
 
   spec.source = {
     git: 'https://github.com/akashivskyy/QuickSwiftCheck.git',
@@ -35,18 +23,13 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'QuickSwiftCheck/Sources'
 
-  # Dependencies
-
-  spec.dependency 'Nimble', '~> 7.1'
-  spec.dependency 'Quick', '~> 1.3'
-  spec.dependency 'SwiftCheck', '~> 0.10'
-
-  # Linking
+  spec.dependency 'Nimble', '~> 8.0'
+  spec.dependency 'Quick', '~> 2.0'
+  spec.dependency 'SwiftCheck', '~> 0.12'
 
   spec.frameworks = 'XCTest'
 
-  # Settings
-
+  spec.swift_version = '5.0'
   spec.requires_arc = true
 
   spec.ios.deployment_target = '8.0'

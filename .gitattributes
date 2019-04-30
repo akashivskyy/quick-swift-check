@@ -1,0 +1,16 @@
+# .gitattributes
+# Copyright © 2019 Adrian Kashivskyy. All rights reserved.
+
+# Auxillary files.
+
+Cartfile linguist-detectable=false
+Cartfile.resolved linguist-detectable=false
+
+Package.swift linguist-detectable=false
+Package.resolved linguist-detectable=false
+
+QuickSwiftCheck.podspec linguist-detectable=false
+
+# Vendored code.
+
+QuickSwiftCheck/Configurations/External/* linguist-vendored

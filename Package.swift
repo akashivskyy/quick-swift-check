@@ -1,10 +1,6 @@
-// swift-tools-version:4.0
-//
+// swift-tools-version:5.0
 // Package.swift
-//
-// Copyright © 2017 Adrian Kashivskyy. All rights reserved.
-// Licensed under the MIT License.
-//
+// Copyright © 2019 Adrian Kashivskyy. All rights reserved.
 
 import PackageDescription
 
@@ -14,9 +10,9 @@ let package = Package(
         .library(name: "QuickSwiftCheck", targets: ["QuickSwiftCheck"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Nimble.git", from: "7.1.0"),
-        .package(url: "https://github.com/Quick/Quick.git", from: "1.3.0"),
-        .package(url: "https://github.com/typelift/SwiftCheck.git", from: "0.10.0"),
+        .package(url: "https://github.com/Quick/Nimble.git", from: "8.0.0"),
+        .package(url: "https://github.com/Quick/Quick.git", from: "2.0.0"),
+        .package(url: "https://github.com/typelift/SwiftCheck.git", from: "0.12.0"),
     ],
     targets: [
         .target(
