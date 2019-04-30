@@ -68,7 +68,7 @@ pod 'QuickSwiftCheck', '~> {version}'
 
 ## Roadmap
 
-#### Version 2.x
+#### Version 3.x
 
 These minor releases will keep QuickSwiftCheck up-to-date with latest versions of Quick, Nimble, SwiftCheck and Swift itself.
 
