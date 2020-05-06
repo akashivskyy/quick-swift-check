@@ -1,5 +1,5 @@
 // Common-Base.xcconfig
-// Copyright © 2019 Adrian Kashivskyy. All rights reserved.
+// Copyright © 2020 Adrian Kashivskyy. All rights reserved.
 
 #include "../External/Common/Carthage.xcconfig"
 #include "../External/Common/Common.xcconfig"

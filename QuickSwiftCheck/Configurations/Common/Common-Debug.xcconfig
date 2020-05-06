@@ -1,5 +1,5 @@
 // Common-Debug.xcconfig
-// Copyright © 2019 Adrian Kashivskyy. All rights reserved.
+// Copyright © 2020 Adrian Kashivskyy. All rights reserved.
 
 #include "../Common/Common-Base.xcconfig"
 #include "../External/Configurations/Debug.xcconfig"

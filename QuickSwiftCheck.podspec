@@ -1,5 +1,5 @@
 # QuickSwiftCheck.podspec
-# Copyright © 2019 Adrian Kashivskyy. All rights reserved.
+# Copyright © 2020 Adrian Kashivskyy. All rights reserved.
 
 Pod::Spec.new do |spec|
 
