@@ -1,5 +1,5 @@
 // Extensions.swift
-// Copyright © 2019 Adrian Kashivskyy. All rights reserved.
+// Copyright © 2020 Adrian Kashivskyy. All rights reserved.
 
 import Foundation
 import Nimble

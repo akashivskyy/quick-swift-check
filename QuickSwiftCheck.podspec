@@ -1,10 +1,10 @@
 # QuickSwiftCheck.podspec
-# Copyright © 2019 Adrian Kashivskyy. All rights reserved.
+# Copyright © 2020 Adrian Kashivskyy. All rights reserved.
 
 Pod::Spec.new do |spec|
 
   spec.name = 'QuickSwiftCheck'
-  spec.version = '3.0.0'
+  spec.version = '3.1.0'
   spec.summary = 'Quick + Nimble + SwiftCheck'
   spec.homepage = 'https://github.com/akashivskyy/QuickSwiftCheck'
 
