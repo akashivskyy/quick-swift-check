@@ -1,5 +1,0 @@
-// Framework-tvOS.xcconfig
-// Copyright © 2020 Adrian Kashivskyy. All rights reserved.
-
-#include "../Framework/Framework-Base.xcconfig"
-#include "../External/Platforms/tvOS.xcconfig"
