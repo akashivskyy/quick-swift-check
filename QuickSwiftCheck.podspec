@@ -23,8 +23,8 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'QuickSwiftCheck/Sources'
 
-  spec.dependency 'Nimble', '~> 8.0'
-  spec.dependency 'Quick', '~> 2.0'
+  spec.dependency 'Nimble', '~> 9.0'
+  spec.dependency 'Quick', '~> 3.0'
   spec.dependency 'SwiftCheck', '~> 0.12'
 
   spec.frameworks = 'XCTest'
@@ -32,8 +32,8 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.requires_arc = true
 
-  spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.10'
+  spec.ios.deployment_target = '9.0'
   spec.tvos.deployment_target = '9.0'
 
 end
