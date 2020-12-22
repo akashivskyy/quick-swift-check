@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     tag: spec.version.to_s
   }
 
-  spec.source_files = 'QuickSwiftCheck/Sources'
+  spec.source_files = 'Sources'
 
   spec.dependency 'Nimble', '~> 9.0'
   spec.dependency 'Quick', '~> 3.0'
