@@ -7,7 +7,7 @@ import PackageDescription
 let package = Package(
     name: "QuickSwiftCheck",
     platforms: [
-        .macOS(.v10_10), .iOS(.v9), .tvOS(.v9)
+        .macOS(.v10_10), .iOS(.v9), .tvOS(.v9),
     ],
     products: [
         .library(name: "QuickSwiftCheck", targets: ["QuickSwiftCheck"]),
@@ -23,5 +23,8 @@ let package = Package(
             dependencies: ["Nimble", "Quick", "SwiftCheck"],
             path: "Sources"
         )
+    ],
+    swiftLanguageVersions: [
+        .v5,
     ]
 )
