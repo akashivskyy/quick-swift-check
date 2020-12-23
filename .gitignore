@@ -5,27 +5,23 @@
 .Trashes
 .localized
 
-.build
 xcuserdata
-DerivedData
-
 *.mode1v3
 *.mode2v3
 *.perspectivev3
 *.pbxuser
 *.xccheckout
-*.xcuserstate
 *.xcscmblueprint
+*.xcuserstate
+*.xctimeline
 *.moved-aside
 *.hmap
 *.o
-*.hmap
 *.ipa
 *.dSYM.zip
 
-.idea
-*.iml
+.build
+.swiftpm
 
 Pods
 Carthage
-Packages

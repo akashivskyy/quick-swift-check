@@ -4,7 +4,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = 'QuickSwiftCheck'
-  spec.version = '3.1.0'
+  spec.version = '3.2.0'
   spec.summary = 'Quick + Nimble + SwiftCheck'
   spec.homepage = 'https://github.com/akashivskyy/QuickSwiftCheck'
 
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.license = {
     type: 'MIT',
-    file: 'LICENSE.md'
+    file: 'LICENSE.txt'
   }
 
   spec.source = {
@@ -21,10 +21,10 @@ Pod::Spec.new do |spec|
     tag: spec.version.to_s
   }
 
-  spec.source_files = 'QuickSwiftCheck/Sources'
+  spec.source_files = 'Sources'
 
-  spec.dependency 'Nimble', '~> 8.0'
-  spec.dependency 'Quick', '~> 2.0'
+  spec.dependency 'Nimble', '~> 9.0'
+  spec.dependency 'Quick', '~> 3.0'
   spec.dependency 'SwiftCheck', '~> 0.12'
 
   spec.frameworks = 'XCTest'
@@ -32,8 +32,8 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
   spec.requires_arc = true
 
-  spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.10'
+  spec.ios.deployment_target = '9.0'
   spec.tvos.deployment_target = '9.0'
 
 end

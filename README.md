@@ -1,25 +1,23 @@
 # QuickSwiftCheck
 
 [![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)](https://github.com/akashivskyy/QuickSwiftCheck/releases)
-![](https://img.shields.io/badge/swift-5.0-orange.svg)
-[![](https://img.shields.io/badge/spm-compatible-green.svg)](https://github.com/apple/swift-package-manager)
-[![](https://img.shields.io/badge/carthage-compatible-green.svg)](https://github.com/Carthage/Carthage)
+[![](https://img.shields.io/badge/swiftpm-compatible-green.svg)](https://github.com/apple/swift-package-manager)
 [![](https://img.shields.io/badge/cocoapods-compatible-green.svg)](https://cocoapods.org)
 
 [Quick](https://github.com/Quick/Quick) + [Nimble](https://github.com/Quick/Nimble) + [SwiftCheck](https://github.com/typelift/SwiftCheck) = **QuickSwiftCheck**.
 
 ## Requirements
 
-QuickSwiftCheck is written in Swift 5.0 and supports **macOS 10.10+**, **iOS 8.0+**, **tvOS 9.0+** and **Linux**.
+QuickSwiftCheck supports **macOS 10.10+**, **iOS 9.0+**, **tvOS 9.0+** and **Linux**.
 
 ## Usage
 
-QuickSwiftCheck allows you to use [Quick](https://github.com/Quick/Quick) DSL and [Nimble](https://github.com/Quick/Nimble) expectations together with [SwiftCheck](https://github.com/typelift/SwiftCheck):
+QuickSwiftCheck allows you to use [Quick](https://github.com/Quick/Quick) and [Nimble](https://github.com/Quick/Nimble) together with [SwiftCheck](https://github.com/typelift/SwiftCheck):
 
 ```swift
-sc_it("Int.hashValue should respect the axiom") {
-    forAll { (x: Int, y: Int) in
-        (x == y) ==> expect(x.hashValue).sc_to(equal(y.hashValue))
+sc_it("integer addition is commutative") {
+    forAll { (a: Int, b: Int) in
+        expect(a + b).sc_to(equal(b + a))
     }
 }
 ```
@@ -47,15 +45,7 @@ sc_it("this is a property-based test example") {
 If you're using [Swift Package Manager](https://github.com/apple/swift-package-manager), add the following dependency to your `Package.swift`:
 
 ```none
-.package(url: "https://github.com/akashivskyy/QuickSwiftCheck.git", from: "{version}"),
-```
-
-### Carthage
-
-If you're using [Carthage](https://github.com/Carthage/Carthage), add the following dependency to your `Cartfile`:
-
-```none
-github "akashivskyy/QuickSwiftCheck" ~> {version}
+.package(url: "https://github.com/akashivskyy/QuickSwiftCheck", from: "{version}"),
 ```
 
 ### CocoaPods
@@ -78,4 +68,4 @@ This project is made and maintained with ♡ by [Adrian Kashivskyy](https://gith
 
 ### License
 
-The project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for more info.
+The project is licensed under the [MIT License](LICENSE.txt).
