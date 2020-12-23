@@ -68,4 +68,4 @@ This project is made and maintained with ♡ by [Adrian Kashivskyy](https://gith
 
 ### License
 
-The project is licensed under the MIT License. See [LICENSE.md](LICENSE.txt) for more info.
+The project is licensed under the [MIT License](LICENSE.txt).
