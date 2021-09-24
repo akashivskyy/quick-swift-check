@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'Sources'
 
   spec.dependency 'Nimble', '~> 9.0'
-  spec.dependency 'Quick', '~> 3.0'
+  spec.dependency 'Quick', '~> 4.0'
   spec.dependency 'SwiftCheck', '~> 0.12'
 
   spec.frameworks = 'XCTest'

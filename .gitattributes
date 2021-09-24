@@ -1,8 +1,6 @@
 # .gitattributes
 # Copyright © 2020 Adrian Kashivskyy. All rights reserved.
 
-# Auxillary files.
-
 Package.swift linguist-detectable=false
 Package.resolved linguist-detectable=false
 
