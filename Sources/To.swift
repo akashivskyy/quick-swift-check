@@ -10,14 +10,14 @@ extension Expectation {
     /// the result in a SwiftCheck `Testable`. This makes it possible to use
     /// Nimble matchers inside a property test.
     public func sc_to(_ predicate: Predicate<T>, description: String? = nil) -> Testable {
-        return testable(predicate: predicate, description: description, style: .toMatch, to: "to")
+        testable(predicate: predicate, description: description, style: .toMatch, to: "to")
     }
 
     /// Evaluate the given `predicate` with the expected expression and wrap
     /// the result in a SwiftCheck `Testable`. This makes it possible to use
     /// Nimble matchers inside a property test.
     public func sc_toNot(_ predicate: Predicate<T>, description: String? = nil) -> Testable {
-        return testable(predicate: predicate, description: description, style: .toNotMatch, to: "to not")
+        testable(predicate: predicate, description: description, style: .toNotMatch, to: "to not")
     }
 
     /// Create `Testable` result by evaluating the expectation with the given
