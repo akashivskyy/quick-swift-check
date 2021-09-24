@@ -1,39 +1,29 @@
 # QuickSwiftCheck
 
-[![](https://img.shields.io/github/release/akashivskyy/QuickSwiftCheck.svg)](https://github.com/akashivskyy/QuickSwiftCheck/releases)
+[![](https://img.shields.io/github/release/akashivskyy/quick-swift-check.svg)](https://github.com/akashivskyy/quick-swift-check/releases)
 [![](https://img.shields.io/badge/swiftpm-compatible-green.svg)](https://github.com/apple/swift-package-manager)
 [![](https://img.shields.io/badge/cocoapods-compatible-green.svg)](https://cocoapods.org)
 
-[Quick](https://github.com/Quick/Quick) + [Nimble](https://github.com/Quick/Nimble) + [SwiftCheck](https://github.com/typelift/SwiftCheck) = **QuickSwiftCheck**.
+Interoperability between [Quick](https://github.com/Quick/Quick), [Nimble](https://github.com/Quick/Nimble) and [SwiftCheck](https://github.com/typelift/SwiftCheck).
 
 ## Requirements
 
-QuickSwiftCheck supports **macOS 10.10+**, **iOS 9.0+**, **tvOS 9.0+** and **Linux**.
+QuickSwiftCheck supports **iOS 9.0+**, **macOS 10.10+**, **tvOS 9.0+** and **Linux**.
 
 ## Usage
 
-QuickSwiftCheck allows you to use [Quick](https://github.com/Quick/Quick) and [Nimble](https://github.com/Quick/Nimble) together with [SwiftCheck](https://github.com/typelift/SwiftCheck):
+QuickSwiftCheck adds `sc_` variants to `it`, `fit`, `xit`, `to` and `toNot` functions, so that the original functions remain not overloaded. This means you can use `it` to create a regular test example and `to` to create a regular expectation:
+
+```swift
+it("integer addition is commutative") {
+    expect(2 + 3).to(equal(3 + 2))
+}
+```
 
 ```swift
 sc_it("integer addition is commutative") {
     forAll { (a: Int, b: Int) in
         expect(a + b).sc_to(equal(b + a))
-    }
-}
-```
-
-QuickSwiftCheck adds `sc_` variants to `it`, `fit`, `xit`, `to` and `toNot` functions, so that the original functions remain not overloaded (because doing so causes type checking ambiguities). This means you can use `it` to create a regular test example and `to` to create a regular expectation:
-
-```swift
-it("this is a regular test example") {
-    expect(...).to(...)
-}
-```
-
-```swift
-sc_it("this is a property-based test example") {
-    forAll {
-        expect(...).sc_to(...)
     }
 }
 ```
@@ -45,7 +35,7 @@ sc_it("this is a property-based test example") {
 If you're using [Swift Package Manager](https://github.com/apple/swift-package-manager), add the following dependency to your `Package.swift`:
 
 ```none
-.package(url: "https://github.com/akashivskyy/QuickSwiftCheck", from: "{version}"),
+.package(url: "https://github.com/akashivskyy/QuickSwiftCheck", from: "X.Y.Z"),
 ```
 
 ### CocoaPods
@@ -53,7 +43,7 @@ If you're using [Swift Package Manager](https://github.com/apple/swift-package-m
 If you're using [CocoaPods](http://cocoapods.org), add the following dependency to your `Podfile`:
 
 ```none
-pod 'QuickSwiftCheck', '~> {version}'
+pod 'QuickSwiftCheck', '~> X.Y.Z'
 ```
 
 ## Roadmap
