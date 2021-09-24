@@ -54,7 +54,7 @@ public func sc_xit(_ description: String, arguments: CheckerArguments? = nil, fl
             property(description, arguments: arguments, file: file, line: line) <- closure()
         }
     #else
-        fit(description, flags: flags, file: String(describing: file), line: line) {
+        xit(description, flags: flags, file: String(describing: file), line: line) {
             property(description, arguments: arguments, file: file, line: line) <- closure()
         }
     #endif
