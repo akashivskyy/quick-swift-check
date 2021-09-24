@@ -4,9 +4,9 @@
 Pod::Spec.new do |spec|
 
   spec.name = 'QuickSwiftCheck'
-  spec.version = '3.2.0'
+  spec.version = '3.3.0'
   spec.summary = 'Quick + Nimble + SwiftCheck'
-  spec.homepage = 'https://github.com/akashivskyy/QuickSwiftCheck'
+  spec.homepage = 'https://github.com/akashivskyy/quick-swift-check'
 
   spec.authors = 'Adrian Kashivskyy'
   spec.social_media_url = 'https://twitter.com/akashivskyy'
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.source = {
-    git: 'https://github.com/akashivskyy/QuickSwiftCheck.git',
+    git: 'https://github.com/akashivskyy/quick-swift-check.git',
     tag: spec.version.to_s
   }
 
