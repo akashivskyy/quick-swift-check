@@ -36,4 +36,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '9.0'
   spec.tvos.deployment_target = '9.0'
 
+  spec.deprecated = true
+  spec.deprecated_in_favor_of = 'Swift Package Manager'
+
 end
