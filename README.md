@@ -30,12 +30,20 @@ sc_it("integer addition is commutative") {
 
 ## Installation
 
+### Xcode
+
+In Xcode, select File → Add Packages and use the on-screen UI to search for the following Package URL:
+
+```none
+https://github.com/akashivskyy/quick-swift-check
+```
+
 ### Swift Package Manager
 
 If you're using [Swift Package Manager](https://github.com/apple/swift-package-manager), add the following dependency to your `Package.swift`:
 
 ```none
-.package(url: "https://github.com/akashivskyy/QuickSwiftCheck", from: "X.Y.Z"),
+.package(url: "https://github.com/akashivskyy/quick-swift-check", from: "X.Y.Z"),
 ```
 
 ### CocoaPods
