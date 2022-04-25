@@ -4,7 +4,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = 'QuickSwiftCheck'
-  spec.version = '3.3.0'
+  spec.version = '3.4.0'
   spec.summary = 'Quick + Nimble + SwiftCheck'
   spec.homepage = 'https://github.com/akashivskyy/quick-swift-check'
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'Sources'
 
   spec.dependency 'Nimble', '~> 9.0'
-  spec.dependency 'Quick', '~> 4.0'
+  spec.dependency 'Quick', '~> 5.0'
   spec.dependency 'SwiftCheck', '~> 0.12'
 
   spec.frameworks = 'XCTest'
@@ -35,5 +35,8 @@ Pod::Spec.new do |spec|
   spec.osx.deployment_target = '10.10'
   spec.ios.deployment_target = '9.0'
   spec.tvos.deployment_target = '9.0'
+
+  spec.deprecated = true
+  spec.deprecated_in_favor_of = 'Swift Package Manager'
 
 end

@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Quick/Nimble", from: "9.0.0"),
-        .package(url: "https://github.com/Quick/Quick", from: "4.0.0"),
+        .package(url: "https://github.com/Quick/Quick", from: "5.0.0"),
         .package(url: "https://github.com/typelift/SwiftCheck", from: "0.12.0"),
     ],
     targets: [
@@ -23,8 +23,5 @@ let package = Package(
             dependencies: ["Nimble", "Quick", "SwiftCheck"],
             path: "Sources"
         )
-    ],
-    swiftLanguageVersions: [
-        .v5,
     ]
 )

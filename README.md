@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/github/release/akashivskyy/quick-swift-check.svg)](https://github.com/akashivskyy/quick-swift-check/releases)
 [![](https://img.shields.io/badge/swiftpm-compatible-green.svg)](https://github.com/apple/swift-package-manager)
-[![](https://img.shields.io/badge/cocoapods-compatible-green.svg)](https://cocoapods.org)
+[![](https://img.shields.io/badge/cocoapods-deprecated-red.svg)](https://cocoapods.org)
 
 Interoperability between [Quick](https://github.com/Quick/Quick), [Nimble](https://github.com/Quick/Nimble) and [SwiftCheck](https://github.com/typelift/SwiftCheck).
 
@@ -30,20 +30,16 @@ sc_it("integer addition is commutative") {
 
 ## Installation
 
-### Swift Package Manager
-
-If you're using [Swift Package Manager](https://github.com/apple/swift-package-manager), add the following dependency to your `Package.swift`:
+In Xcode, select File → Add Packages and use the on-screen UI to search for the following Package URL:
 
 ```none
-.package(url: "https://github.com/akashivskyy/QuickSwiftCheck", from: "X.Y.Z"),
+https://github.com/akashivskyy/quick-swift-check
 ```
 
-### CocoaPods
-
-If you're using [CocoaPods](http://cocoapods.org), add the following dependency to your `Podfile`:
+If you're using [Swift Package Manager](https://github.com/apple/swift-package-manager) directly, add the following dependency to your `Package.swift`:
 
 ```none
-pod 'QuickSwiftCheck', '~> X.Y.Z'
+.package(url: "https://github.com/akashivskyy/quick-swift-check", from: "X.Y.Z"),
 ```
 
 ## Roadmap
