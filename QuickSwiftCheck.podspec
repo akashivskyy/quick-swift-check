@@ -4,7 +4,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = 'QuickSwiftCheck'
-  spec.version = '3.3.0'
+  spec.version = '3.4.0'
   spec.summary = 'Quick + Nimble + SwiftCheck'
   spec.homepage = 'https://github.com/akashivskyy/quick-swift-check'
 
