@@ -6,6 +6,10 @@
 
 Interoperability between [Quick](https://github.com/Quick/Quick), [Nimble](https://github.com/Quick/Nimble) and [SwiftCheck](https://github.com/typelift/SwiftCheck).
 
+## Warning
+
+**This project is no longer maintained. Please fork this repository if you want to make changes or reach out to me if you're interested in taking it over.**
+
 ## Requirements
 
 QuickSwiftCheck supports **iOS 9.0+**, **macOS 10.10+**, **tvOS 9.0+** and **Linux**.
